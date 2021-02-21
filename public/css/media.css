@@ -1,0 +1,42 @@
+@media (max-width: 1000px){
+    .menu{
+        display: none;
+    }
+
+    .bar-menu{
+        display: block;
+    }
+}
+
+@media (max-width: 900px){
+    .saladas-sobre > .container{
+        display: block;
+    }   
+
+    .saladas-sobre .img-salada{
+        display: none;
+    }
+
+    .saladas-sobre .sobre-saladas{
+        margin: 0 auto; 
+    }
+}
+
+
+@media (max-width: 700px){
+    body{
+        background: url(../img/bg-mobile-1.png) no-repeat left top, url('../img/bg-mobile-2.png') no-repeat right bottom;
+    }
+}
+
+@media (max-width: 500px){
+    .saladas-menu li{
+        flex: 1 0 150px;
+    }
+}
+
+@media (max-width: 360px){
+    .bar-menu i{
+        color: #02772A;
+    }
+}

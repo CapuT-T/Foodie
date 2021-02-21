@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/755ff7a8df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/css/home-import.css">
+    <title>Foodie</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./public/img/Foodie.svg" alt=""></a>
+            </div>
+
+            <nav data-menu class="menu">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a>Contato</a></li>
+                    <li data-menu="sub-menu"><a href="#Pacotes">Pacotes</a>
+                        <ul>
+                            <li><a href="#">Conteudo</a></li>
+                            <li><a href="#">Conteudo</a></li>
+                            <li><a href="#">Conteudo</a></li>
+                            <li><a href="#">Conteudo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                </ul>
+            </nav>
+
+            <div data-menu-mobile="bar" class="bar-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav data-menu-mobile="menu" class="menu-mobile"> ]
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li data-menu-mobile="menu-mobile"><a href="#Pacotes">Pacotes</a>
+                        <ul>
+                            <li><a href="#">Conteudo</a></li>
+                            <li><a href="#">Conteudo</a></li>
+                            <li><a href="#">Conteudo</a></li>
+                            <li><a href="#">Conteudo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                </ul>
+            </nav>
+
+            <div data-menu-mobile="over" class="over"></div>
+        </div>
+    </header>
+
+    <section class="saladas-sobre">
+        <div class="container">
+            <div class="img-salada">
+                <img src="./public/img/salada-single.png" alt="Salada" title="Salada">
+            </div>
+
+            <div id="sobre" class="sobre-saladas">
+                <h1>Saladas</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum massa dolor, et suscipit felis ultrices sit amet. Mauris non luctus erat. Duis mollis nisi at ipsum interdum sagittis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum massa dolor, et suscipit felis ultrices sit amet. Mauris non luctus erat. Duis mollis nisi at ipsum interdum sagittis.</p>
+
+                <a href="#" class="btn-salada">Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="saladas-menu">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="./public/img/salada-bg.png" alt="Salada" title="Salada"> <span>Salada de Tomate</span></a></li>
+                    <li><a href="#"><img src="./public/img/salada-bg.png" alt="Salada" title="Salada"> <span>Salada de Tomate</span></a></li>
+                    <li><a href="#"><img src="./public/img/salada-bg.png" alt="Salada" title="Salada"> <span>Salada de Tomate</span></a></li>
+                    <li><a href="#"><img src="./public/img/salada-bg.png" alt="Salada" title="Salada"> <span>Salada de Tomate</span></a></li>
+                    <li><a href="#"><img src="./public/img/salada-bg.png" alt="Salada" title="Salada"> <span>Salada de Tomate</span></a></li>
+                    <li><a href="#"><img src="./public/img/salada-bg.png" alt="Salada" title="Salada"> <span>Salada de Tomate</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <script type="module" src="./public/js/main.js"></script>
+</body>
+</html>
